@@ -24,7 +24,7 @@ contact nsidc@nsidc.org for more information.
 
 ## Requirements
 
-The procedures defined in this directory require the Interactive Data Language
+The procedures defined in this repository require the Interactive Data Language
 (IDL), which requires a license to install and use.
 
 
