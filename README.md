@@ -37,7 +37,16 @@ for more information on how to install IDL on your system.
 
 ## Usage
 
-First, start an IDL repl (`idl`):
+
+Once compiled, use the proceudre by following the usage instructions provided
+below.
+
+### disp_ssmi_ice_xa.pro
+
+IDL procedure for creating animations of sea ice concentrations from Polar
+Stereographic grid files.
+
+To use `disp_ssmi_ice_xa.pro`, start an IDL repl (`idl`):
 
 ```
 $ idl
@@ -48,8 +57,7 @@ Licensed for use by: University of Colorado - Boulder (MAIN)
 IDL>
 ```
 
-Next, compile the procedure(s) you wish to use that are included in the `src`
-directory. For example, to compile `disp_ssmi_ice_xa.pro`:
+Next, compile the `disp_ssmi_ice_xa.pro`:
 
 ```
 IDL> .RUN src/disp_ssmi_ice_xa.pro
@@ -80,14 +88,6 @@ IDL> .RUN src/disp_ssmi_ice_xa.pro
 % Compiled module: ANIMATE.
 % Compiled module: DISP_SSMI_ICE_XA.
 ```
-
-Once compiled, use the proceudre by following the usage instructions provided
-below.
-
-### disp_ssmi_ice_xa.pro
-
-IDL procedure for creating animations of sea ice concentrations from Polar
-Stereographic grid files.
 
 Once `disp_ssmi_ice_xa.pro` has been compiled, run the `DISP_SSMI_ICE_XA`
 procedure and follow the prompts to select and read data from files on disk and
@@ -129,6 +129,41 @@ You selected the NASATeam algorithm
 
 IDL procedure for extracting sea ice concentrations from Polar Stereographic
 grid files.
+
+To use `extract_ice.pro`, start an IDL repl (`idl`):
+
+```
+$ idl
+IDL Version 8.3 (linux x86_64 m64). (c) 2013, Exelis Visual Information Solutions, Inc.
+Installation number: xxx-xxxx.
+Licensed for use by: University of Colorado - Boulder (MAIN)
+
+IDL>
+```
+
+Next, compile `extract_ice.pro` with the `.RUN` command:
+
+```
+$ idl
+IDL> .RUN src/extract_ice.pro
+% Compiled module: GET_PROCESSING_TYPE.
+% Compiled module: GET_TIME_RESOLUTION.
+% Compiled module: GET_DATES.
+% Compiled module: GET_ALGORITHM.
+% Compiled module: GET_HEMISPHERE.
+% Compiled module: GET_DIR.
+% Compiled module: GET_ESMR_THRESHOLD.
+% Compiled module: GET_SATELLITE_NUMBER.
+% Compiled module: DATE_INCREMENT.
+% Compiled module: GET_ICE_FILE_LIST.
+% Compiled module: GET_MONTHLY_FILE_LIST.
+% Compiled module: GET_ESMR_FILE_LIST.
+% Compiled module: GET_ESMR_MONTHLY_FILE_LIST.
+% Compiled module: GET_ESMR_MEANS_FILE_LIST.
+% Compiled module: READ_DATA_FILE.
+% Compiled module: GET_IMAGE_SIZE.
+% Compiled module: EXTRACT_ICE.
+```
 
 Once `extract_ice.pro` has been compiled, run the `EXTRACT_ICE` procedure and
 follow the prompts to select and read data from files on disk into an array. In
