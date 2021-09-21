@@ -52,7 +52,7 @@ Next, compile the procedure(s) you wish to use that are included in the `src`
 directory. For example, to compile `disp_ssmi_ice_xa.pro`:
 
 ```
-IDL> .RUN disp_ssmi_ice_xa.pro
+IDL> .RUN src/disp_ssmi_ice_xa.pro
 % Compiled module: GET_PROCESSING_TYPE.
 % Compiled module: GET_TIME_RESOLUTION.
 % Compiled module: GET_DATES.
