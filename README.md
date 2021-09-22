@@ -46,7 +46,8 @@ below.
 IDL procedure for creating animations of sea ice concentrations from Polar
 Stereographic grid files.
 
-To use `disp_ssmi_ice_xa.pro`, `cd` to `src` and start an IDL repl (`idl`):
+To use `disp_ssmi_ice_xa.pro`, `cd` to the `src/` directory and start an IDL
+repl (`idl`):
 
 ```
 $ cd src/
@@ -131,7 +132,8 @@ You selected the NASATeam algorithm
 IDL procedure for extracting sea ice concentrations from Polar Stereographic
 grid files.
 
-To use `extract_ice.pro`, `cd` to `src` and start an IDL repl (`idl`):
+To use `extract_ice.pro`, `cd` to the `src/` directory and start an IDL repl
+(`idl`):
 
 ```
 $ cd src/
