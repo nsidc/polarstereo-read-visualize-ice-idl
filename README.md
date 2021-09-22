@@ -46,9 +46,11 @@ below.
 IDL procedure for creating animations of sea ice concentrations from Polar
 Stereographic grid files.
 
-To use `disp_ssmi_ice_xa.pro`, start an IDL repl (`idl`):
+To use `disp_ssmi_ice_xa.pro`, `cd` to the `src/` directory and start an IDL
+repl (`idl`):
 
 ```
+$ cd src/
 $ idl
 IDL Version 8.3 (linux x86_64 m64). (c) 2013, Exelis Visual Information Solutions, Inc.
 Installation number: xxx-xxxx.
@@ -60,7 +62,7 @@ IDL>
 Next, compile the `disp_ssmi_ice_xa.pro`:
 
 ```
-IDL> .RUN src/disp_ssmi_ice_xa.pro
+IDL> .RUN disp_ssmi_ice_xa.pro
 % Compiled module: GET_PROCESSING_TYPE.
 % Compiled module: GET_TIME_RESOLUTION.
 % Compiled module: GET_DATES.
@@ -130,9 +132,11 @@ You selected the NASATeam algorithm
 IDL procedure for extracting sea ice concentrations from Polar Stereographic
 grid files.
 
-To use `extract_ice.pro`, start an IDL repl (`idl`):
+To use `extract_ice.pro`, `cd` to the `src/` directory and start an IDL repl
+(`idl`):
 
 ```
+$ cd src/
 $ idl
 IDL Version 8.3 (linux x86_64 m64). (c) 2013, Exelis Visual Information Solutions, Inc.
 Installation number: xxx-xxxx.
@@ -145,7 +149,7 @@ Next, compile `extract_ice.pro` with the `.RUN` command:
 
 ```
 $ idl
-IDL> .RUN src/extract_ice.pro
+IDL> .RUN extract_ice.pro
 % Compiled module: GET_PROCESSING_TYPE.
 % Compiled module: GET_TIME_RESOLUTION.
 % Compiled module: GET_DATES.
